@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    display: fixed;
+    justify-content: center;
+    
+}
+.top {
+    display: flex;
+    justify-content: center;
+    
+}
+.dimensions {
+    
+    background-color: rgb(210, 208, 208);
+    padding: 8px 20px 8px 20px;
+    font-size: xx-small;
+    margin-top: 20px;
+}
+
+.signin {
+    border: 1px solid rgb(219, 210, 210);
+    padding: 10px 10px 10px 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: x-large;
+    
+    
+}
+.email-text {
+    font-size: 10px;
+    padding-top: 20px;
+
+    
+}
+
+.text {
+    display: flex;
+    width:95%;
+
+}
+
+.password-container {
+   /* justify-content: left; */
+    font-size: 10px;
+    
+}
+
+
+.forgot {
+    font-size: small;
+    text-align: right;
+    width: 95%;
+        
+}
+
+.text2 {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+}
+.continue {
+    background-color: rgba(247, 203, 7, 0.999);
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+
+.help {
+    display: flex;
+    justify-content: left;
+    font-size: small;
+
+    
+
+}
+
+.new-container:before { 
+    
+    content: "";
+    display:block;
+    height: 1px;
+    width: 130px;
+    position:absolute;
+    top:50%;
+    left: 80px;
+    background: rgb(185, 181, 181);
+    
+}
+    .new-container {
+        position: relative;
+        max-width: 500px;
+        margin: 100px auto;
+        text-align: center;
+        color:rgb(185, 175, 175);
+        font-size: 10px;
+        font-family: sans-serif;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+}
+.new-container:after {
+    content: "";
+    height: 1px;
+    width: 130px;
+    background: rgb(177, 174, 174);
+    display: block;
+    position: absolute;
+    top:50%;
+    right: 80px;
+}
+
+
+
+
+
+
+
+
+.new-account {
+
+    font-size: 12px;
+    display: block;
+    width: 40%;
+    padding: 6px;
+    
+    
+    
+   
+} 
+.bottomoptions{
+    font-size: 8px;
+    
+        
+
+}
+a.use{
+    margin-right: 10px;
+}
+a.pp{
+    margin-right: 10px;
+}
+a.helpp{
+    margin-left: 10px;
+}
+
+.end {
+
+}
